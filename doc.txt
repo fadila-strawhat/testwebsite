@@ -1,0 +1,14 @@
+Assignment
+Create a file named table.html.
+Create a table with:
+•	A caption titled "Student Record" 
+•	A border 
+•	4 columns: 
+o	Name 
+o	Age 
+o	Course 
+o	State 
+•	At least 5 students 
+•	One example of colspan 
+•	One example of rowspan
+
