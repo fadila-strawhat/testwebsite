@@ -18,7 +18,7 @@
     <p><b>Sign up for more</b></p>
     <form>
 <label>Name:</label>
-    <input type ='text' placeholder='Enter your name'>
+    <input type ='text' placeholder='Enter your name'minlength='5' maxlength='100' required>
     <br><br>
 <label>Email:</label>
     <input type ='email' placeholder='Enter your email'>
@@ -32,9 +32,56 @@
 <label>School:</label>
     <input type ='text' placeholder='Enter your school'>
     <br><br>
+<Label>Password:</Label>
+    <input type ='password' placeholder='Enter your password' minlength='8'>
+    <br><br>
+<label>Date</label>
+<input type ='date'>
+    <br><br>
 
-    <button type="submit">Submit</button>
+<input type ='checkbox'>I agree to the terms and conditions
+<input type ='checkbox'>I want to receive newsletters
+<input type ='checkbox'>I do not agree to the term
 
+<p>Check from the ones below</p>
+<label>Hobbies:</label>
+<br>
+<input type ='checkbox' id = "Football" name = "hobby" value = "Football">
+<label for = "Football">Football</label>
+<br>
+<input type='checkbox'id='football' name="hobby" value="Music">
+<label for='Music'>Music</label>
+<br><br>
+<button type ='submit'>Submit</button>
+    <br><br>
     </form>
+
+<p>Tell us your feedback:</p>
+<textarea  rows='10' cols='80' placeholder="Enter your feedback here..."></textarea>
+
+
+<p>Select from the list below:</p>
+<label>Choose your country</label>
+<select required>
+    <option value="" selected disable>Select your country</option>
+    <option>Nigeria</option>
+    <option>Rwanda</option>
+    <option>USA</option>
+    <option>Canada</option>
+    <option>Ghana</option>
+</select>
+
+<fieldset>
+<legend>Contact Information</legend>
+<label>Name:</label>
+<input type="text" placeholder="Enter your name">
+<br><br>
+<label>Email:</label>
+<input type="email" placeholder="Enter your email">
+<br><br>
+<label>Phone Number:</label>
+<input type="tel" placeholder="Enter your phone number">
+
+</fieldset>
 </body>
 </html>
