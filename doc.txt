@@ -11,4 +11,15 @@ o	State
 •	At least 5 students 
 •	One example of colspan 
 •	One example of rowspan
-
+<!--NO 2-->
+Mini Exercise
+Create a page called form.html with:
+•	A heading: Student Registration Form 
+•	Name (text input) 
+•	Email (email input) 
+•	Password (password input) 
+•	Age (number input) 
+•	Date of Birth (date input) 
+•	Gender (radio buttons) 
+•	Hobbies (checkboxes) 
+•	A Submit button
