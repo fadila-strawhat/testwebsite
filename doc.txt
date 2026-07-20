@@ -1,166 +1,43 @@
 Assignment
-Create a file named table.html.
-Create a table with:
-•	A caption titled "Student Record" 
-•	A border 
-•	4 columns: 
-o	Name 
-o	Age 
-o	Course 
-o	State 
-•	At least 5 students 
-•	One example of colspan 
-•	One example of rowspan
-<!--NO 2-->
-Mini Exercise
-Create a page called form.html with:
-•	A heading: Student Registration Form 
-•	Name (text input) 
-•	Email (email input) 
-•	Password (password input) 
-•	Age (number input) 
-•	Date of Birth (date input) 
-•	Gender (radio buttons) 
-•	Hobbies (checkboxes) 
-•	A Submit button
+Create a new HTML page and use External CSS to style it.
 
-<!--assignment 3 --->
+Instructions
+Create a new file called:
+css_practice.html
+Create another file called:
+design.css
+Link the CSS file to your HTML document.
 
-Create a simple Student Registration Website using everything you have learned today.
+Your webpage should contain the following:
+1. Heading
+Create a main heading that says:
+Welcome to My CSS Practice
 
-File Name
+2. Paragraph
+Write two paragraphs introducing yourself.
+Example:
+•	Your name 
+•	Your favorite hobby 
+•	Why you're learning web development 
 
-Create a file called:
+3. Navigation Bar
+Create a navigation bar with four links:
+•	Home 
+•	About 
+•	Gallery 
+•	Contact 
+The links don't have to open another page.
+Use:
+href="#"
+for now.
 
-assignment2.html
+4. Image
+Add one image of your choice.
 
-Requirements
-1. Navigation Bar
-
-Create a navigation bar with the following links:
-
-Home
-About
-Services
-Contact
-
-(The links can point to index.html, about.html, services.html, and contact.html.)
-
-2. Heading
-
-Add a main heading:
-
-Student Registration Website
-
-Write a short paragraph welcoming visitors.
-
-3. Image
-
-Create an images folder.
-
-Add one image.
-
-Display it using:
-
-src
-alt
-width
-4. Audio
-
-Create an audio folder.
-
-Add one MP3 file.
-
-Display it with:
-
-controls
-5. Video
-
-Create a video folder.
-
-Add one MP4 file.
-
-Display it with:
-
-controls
-width
-6. Student Table
-
-Create a table with a border.
-
-Add a caption:
-
-Student Information
-
-The table should have the following headings:
-
-Name
-Age
-Department
-Level
-
-Add at least 5 students.
-
-7. Registration Form
-
-Create a registration form.
-
-The form should have:
-
-Personal Information
-Full Name
-Email
-Password
-Age
-Date of Birth
-Gender
-
-Hobbies
-
-Use checkboxes.
-
-Country
-
-Use a dropdown (<select>) with:
-
-Choose your Country
-Nigeria
-Ghana
-Canada
-USA
-United Kingdom
-
-Make Choose your Country the default option.
-
-About Yourself
-
-Use a textarea with:
-
-5 rows
-40 columns
-A placeholder
-Fieldset
-
-Group the form using:
-
-<fieldset>
-
-Add the legend:
-
-Student Registration Form
-8. Validation
-
-Use the following validation attributes where appropriate:
-
-required
-placeholder
-minlength
-maxlength
-min
-max
-
-Create a second page called success.html that displays:
-
-Registration Successful!
-A thank-you message.
-A link back to the Home page.
+5. Links
+Write a paragraph like this:
+I enjoy Coding and Reading books.
+Make:
+•	Coding 
+•	Reading books 
+clickable links.
