@@ -1,43 +1,13 @@
-Assignment
-Create a new HTML page and use External CSS to style it.
-
-Instructions
-Create a new file called:
-css_practice.html
-Create another file called:
-design.css
-Link the CSS file to your HTML document.
-
-Your webpage should contain the following:
-1. Heading
-Create a main heading that says:
-Welcome to My CSS Practice
-
-2. Paragraph
-Write two paragraphs introducing yourself.
-Example:
-•	Your name 
-•	Your favorite hobby 
-•	Why you're learning web development 
-
-3. Navigation Bar
-Create a navigation bar with four links:
-•	Home 
-•	About 
-•	Gallery 
-•	Contact 
-The links don't have to open another page.
-Use:
-href="#"
-for now.
-
-4. Image
-Add one image of your choice.
-
-5. Links
-Write a paragraph like this:
-I enjoy Coding and Reading books.
-Make:
-•	Coding 
-•	Reading books 
-clickable links.
+Create a program that stores the following information in variables:
+•	Name 
+•	Age 
+•	Country 
+•	Favourite Colour 
+•	Favourite Food 
+Display all the information using console.log().
+Example output:
+Name: Dila
+Age: 19
+Country: Nigeria
+Favourite Colour: Pink
+Favourite Food: Jollof Rice
