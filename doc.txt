@@ -1,13 +1,7 @@
-Create a program that stores the following information in variables:
-•	Name 
-•	Age 
-•	Country 
-•	Favourite Colour 
-•	Favourite Food 
-Display all the information using console.log().
-Example output:
-Name: Dila
-Age: 19
-Country: Nigeria
-Favourite Colour: Pink
-Favourite Food: Jollof Rice
+Build a program that:
+•	Creates an array of student names. 
+•	Creates another array of their scores. 
+•	Uses a loop to display each student's name and score. 
+•	Calculates the total number of students. 
+•	Checks whether a particular student exists using includes(). 
+•	Allows you to add a new student using push(
