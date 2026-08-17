@@ -1,9 +1,11 @@
+
+/*
 function contact(){
     alert("you have succesfully contacted me")
 }
 
 //this is a comment//
-/*
+
 name = "Mercy"
 age = 19
 country = "Nigeria"
@@ -170,7 +172,6 @@ function test(){
 }
 
 test();
-*/
 
 let student = {
     name: "Mercy",
@@ -178,3 +179,116 @@ let student = {
     hobby:,
 
 }
+
+
+ 
+let students = ["Fadila","Mercy","Farida","Covenant","Farooq"]
+let scores  = [80,90,100,95,86]
+
+for (let m = 0; m < students.length;m++){
+    console.log(`${students[m]} scores ${scores[m]}`)
+}
+*/
+
+
+let form = document.getElementById("form");
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let address = document.getElementById("address");
+let phone = document.getElementById("phone");
+let school = document.getElementById("school");
+let password = document.getElementById("password");
+
+let nameerror = document.getElementById("nameerror");
+let emailerror = document.getElementById("emailerror");
+let addresserror = document.getElementById("addresserror");
+let phoneerror = document.getElementById("phoneerror");
+let schoolerror = document.getElementById("schoolerror");
+let passworderror = document.getElementById("passworderror");
+
+name.addEventListener("input",function(){
+    if (name.value === ""){
+        nameerror.textContent = "Name  is Required";
+        nameerror.style.color = "red";
+}
+else{
+    nameerror.textContent = "";
+}
+});
+
+email.addEventListener("input",function(){
+    if (email.value === ""){
+        emailerror.textContent = "Email  is Required";
+        emailerror.style.color = "red";
+}
+else{
+    emailerror.textContent = "";
+}
+});
+
+address.addEventListener("input",function(){
+    if (address.value === ""){
+        addresserror.textContent = "Address  is Required";
+        addresserror.style.color = "red";
+}
+else{
+    addresserror.textContent = "";
+}
+});
+
+password.addEventListener("input",function(){
+    if (password.value === ""){
+        passworderror.textContent = "Password  is Required";
+        passworderror.style.color = "red";
+}
+else if (password.value.length < 8){
+    passworderror.textContent = "Password must be at least 8 characters long";
+    passworderror.style.color = "red";
+}
+else if(!/[A-Za-z]/.test(password.value)){
+    passworderror.textContent = "Password must contain at least one letter";
+    passworderror.style.color = "red";
+    
+}
+else if(!/[0-9]/.test(password.value)){
+    passworderror.textContent = "Password must contain at least one number";
+    passworderror.style.color = "red";
+}
+else if(!/[!@#$%^&*()_+]/.test(password.value)){
+    passworderror.textContent = "Password must contain at least one special character [!@#$%^&*()_+]";
+    passworderror.style.color = "red";
+}
+else{
+    passworderror.textContent = "";
+}
+});
+
+
+
+function Hello(){
+    alert("Hello World")
+}
+
+phone.addEventListener("input",function(){
+    if (phone.value === ""){
+        phoneerror.textContent = "PhoneNumber is Required";
+        phoneerror.style.color = "red";
+}
+else if (!/^[0-9]{11}$/.test(phone.value)){
+    phoneerror.textContent = "PhoneNumber must be 11 digits long";
+    phoneerror.style.color = "red";
+}
+else{
+    phoneerror.textContent = "";
+}
+});
+
+school.addEventListener("input",function(){
+    if (school.value === ""){
+        schoolerror.textContent = "School is Required";
+        schoolerror.style.color = "red";
+}
+else{
+    schoolerror.textContent = "";
+}
+});

@@ -4,4 +4,4 @@ Build a program that:
 •	Uses a loop to display each student's name and score. 
 •	Calculates the total number of students. 
 •	Checks whether a particular student exists using includes(). 
-•	Allows you to add a new student using push(
+•	Allows you to add a new student using push
